@@ -23,17 +23,17 @@ ________________________________________________________________________________
 **Components**
 
 **AES Encryption Module:** 
------------------
+
 A SystemVerilog implementation of the AES encryption algorithm.
-
+----------------------------------------------------------------
 **UVM Testbench**: 
-------------------
-Includes a sequencer, driver, monitor, subscriber, and scoreboard for comprehensive coverage and correctness checks.
 
+Includes a sequencer, driver, monitor, subscriber, and scoreboard for comprehensive coverage and correctness checks.
+----------------------------------------------------------------
 **Python Reference Model:** 
 
 A Python script using PyCryptodome to generate reference AES outputs for verification purposes.
-
+----------------------------------------------------------------
 **Coverage Model:** 
 
 Covergroups capturing edge cases in AES operation, including key transitions and various data patterns.
@@ -45,15 +45,15 @@ ________________________________________________________________________________
 **Stimulus Generation**: 
 
 The UVM sequencer generates a sequence of transactions with random plaintext and keys, which are sent to the AES module for encryption.
-
+----------------------------------------------------------------
 **Reference Model Comparison:**
 
  The AES output is compared against the reference model (Python-based) to validate encryption correctness.
- 
+ ----------------------------------------------------------------
 **Coverage Reporting:** 
 
 After simulation, functional coverage is reported, ensuring all relevant AES scenarios are covered.
-
+----------------------------------------------------------------
 **Debugging:** 
 
 The UVM environment logs detailed information for each transaction, helping identify mismatches or functional issues.
@@ -62,9 +62,10 @@ ________________________________________________________________________________
 **Tools & Technologies**
 
 **SystemVerilog:** For AES encryption and the UVM-based testbench.
-
+----------------------------------------------------------------
 **UVM (Universal Verification Methodology):** For building a reusable and scalable verification environment.
-
+----------------------------------------------------------------
 **PyCryptodome:**  For the Python-based AES reference model.
-
+----------------------------------------------------------------
 **QuestaSim:** For simulation and debugging.
+----------------------------------------------------------------
