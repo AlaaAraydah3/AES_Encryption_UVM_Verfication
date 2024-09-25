@@ -23,9 +23,7 @@ ________________________________________________________________________________
 **Components**
 -----------------
 
-**AES Encryption Module:** 
-
-A SystemVerilog implementation of the AES encryption algorithm.
+**AES Encryption Module:** A SystemVerilog implementation of the AES encryption algorithm.
 ----------------------------------------------------------------
 **UVM Testbench**: 
 
