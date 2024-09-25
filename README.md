@@ -1,6 +1,8 @@
 **AES Encryption UVM Verification**
+----------------------------------
 
 This project implements Advanced Encryption Standard (AES) encryption in hardware and verifies it using the Universal Verification Methodology (UVM). The goal is to create a comprehensive testbench that thoroughly validates the functionality and correctness of the AES encryption module.
+______________________________________________________________________________________________________________________________________________________________
 
 **Key Features**
 
