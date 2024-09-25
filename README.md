@@ -9,14 +9,14 @@ ________________________________________________________________________________
 ![Block Diagram](https://github.com/user-attachments/assets/3877c60d-d095-4e0f-b1e1-fc2dbe4a61fc)
 
 
-**Key Features**
+key Features
 
-AES Encryption Module: Implements the AES algorithm in SystemVerilog with a focus on 128-bit encryption, following the NIST standard.
-UVM-Based Testbench: Leverages UVM to create a reusable, scalable, and robust verification environment.
-Functional Coverage: Employs covergroups to ensure all critical functional scenarios of AES (e.g., different data and key combinations) are exercised.
-Randomized Testing: Uses constrained random stimulus to stress-test the AES module across various edge cases.
-Assertions: Built-in assertions ensure real-time checks for encryption correctness.
-Scoreboard and Monitor: A scoreboard compares encrypted outputs against a reference model, while a monitor observes and logs transactions to ensure accuracy.
+1. AES Encryption Module: Implements the AES algorithm in SystemVerilog with a focus on 128-bit encryption, following the NIST standard.
+2. UVM-Based Testbench: Leverages UVM to create a reusable, scalable, and robust verification environment.
+3. Functional Coverage: Employs covergroups to ensure all critical functional scenarios of AES 
+4. Randomized Testing: Uses constrained random stimulus to stress-test the AES module across various edge cases.
+5. Assertions: Built-in assertions ensure real-time checks for encryption correctness.
+6. Scoreboard and Monitor: A scoreboard compares encrypted outputs against a reference model, while a monitor observes and logs transactions to ensure accuracy.
 ______________________________________________________________________________________________________________________________________________________________
 
 **Components**
