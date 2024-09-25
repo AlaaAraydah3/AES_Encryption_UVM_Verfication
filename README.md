@@ -5,11 +5,13 @@ This project implements Advanced Encryption Standard (AES) encryption in hardwar
 ______________________________________________________________________________________________________________________________________________________________
 
 **1-Block Diagram**
+------------------
 
 ![Block Diagram](https://github.com/user-attachments/assets/3877c60d-d095-4e0f-b1e1-fc2dbe4a61fc)
 
 _______________________________________________________________________________________________________________________________________________________________
 **2-key Features**
+------------------
 
 1. AES Encryption Module: Implements the AES algorithm in SystemVerilog with a focus on 128-bit encryption, following the NIST standard.
 2. UVM-Based Testbench: Leverages UVM to create a reusable, scalable, and robust verification environment.
@@ -38,6 +40,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________
 
 **4-How It Works**
+------------------
 
 **Stimulus Generation**: 
 - The UVM sequencer generates a sequence of transactions with random plaintext and keys, which are sent to the AES module for encryption.
@@ -53,6 +56,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________
 
 **5-Tools & Technologies**
+-------------------------
 
 **SystemVerilog**: 
 - For AES encryption and the UVM-based testbench.
