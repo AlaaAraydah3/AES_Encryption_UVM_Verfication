@@ -4,12 +4,12 @@
 This project implements Advanced Encryption Standard (AES) encryption in hardware and verifies it using the Universal Verification Methodology (UVM). The goal is to create a comprehensive testbench that thoroughly validates the functionality and correctness of the AES encryption module.
 ______________________________________________________________________________________________________________________________________________________________
 
-""Block Diagram**
+**Block Diagram**
 
 ![Block Diagram](https://github.com/user-attachments/assets/3877c60d-d095-4e0f-b1e1-fc2dbe4a61fc)
 
-
-key Features
+_______________________________________________________________________________________________________________________________________________________________
+**key Features**
 
 1. AES Encryption Module: Implements the AES algorithm in SystemVerilog with a focus on 128-bit encryption, following the NIST standard.
 2. UVM-Based Testbench: Leverages UVM to create a reusable, scalable, and robust verification environment.
