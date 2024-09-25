@@ -1,15 +1,15 @@
-**AES Encryption UVM Verification**
+*[*AES Encryption UVM Verification*]*
 ----------------------------------
 
 This project implements Advanced Encryption Standard (AES) encryption in hardware and verifies it using the Universal Verification Methodology (UVM). The goal is to create a comprehensive testbench that thoroughly validates the functionality and correctness of the AES encryption module.
 ______________________________________________________________________________________________________________________________________________________________
 
-**Block Diagram**
+**1-Block Diagram**
 
 ![Block Diagram](https://github.com/user-attachments/assets/3877c60d-d095-4e0f-b1e1-fc2dbe4a61fc)
 
 _______________________________________________________________________________________________________________________________________________________________
-**key Features**
+**2-key Features**
 
 1. AES Encryption Module: Implements the AES algorithm in SystemVerilog with a focus on 128-bit encryption, following the NIST standard.
 2. UVM-Based Testbench: Leverages UVM to create a reusable, scalable, and robust verification environment.
@@ -20,51 +20,49 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________
 
 
-**1-Components**
+**3-Components**
 -----------------
 
-**AES Encryption Module:** 
+**AES Encryption Module**:
 - A SystemVerilog implementation of the AES encryption algorithm.
 
 **UVM Testbench**: 
 - Includes a sequencer, driver, monitor, subscriber, and scoreboard for comprehensive coverage and correctness checks.
 
-**Python Reference Model:** 
+**Python Reference Model**:
+- A Python script using PyCryptodome to generate reference AES outputs for verification purposes.
 
-A Python script using PyCryptodome to generate reference AES outputs for verification purposes.
-----------------------------------------------------------------
-**Coverage Model:** 
-
-Covergroups capturing edge cases in AES operation, including key transitions and various data patterns.
-Test Scenarios: Includes directed and randomized tests for functional and stress verification.
+**Coverage Model**:
+- Covergroups capturing edge cases in AES operation, including key transitions and various data patterns.
+- Test Scenarios: Includes directed and randomized tests for functional and stress verification.
 ______________________________________________________________________________________________________________________________________________________________
 
-**How It Works**
+**4-How It Works**
 
 **Stimulus Generation**: 
+- The UVM sequencer generates a sequence of transactions with random plaintext and keys, which are sent to the AES module for encryption.
 
-The UVM sequencer generates a sequence of transactions with random plaintext and keys, which are sent to the AES module for encryption.
-----------------------------------------------------------------
-**Reference Model Comparison:**
+**Reference Model Comparison**:
+ - The AES output is compared against the reference model (Python-based) to validate encryption correctness.
 
- The AES output is compared against the reference model (Python-based) to validate encryption correctness.
- ----------------------------------------------------------------
-**Coverage Reporting:** 
+**Coverage Reporting**: 
+- After simulation, functional coverage is reported, ensuring all relevant AES scenarios are covered.
 
-After simulation, functional coverage is reported, ensuring all relevant AES scenarios are covered.
-----------------------------------------------------------------
-**Debugging:** 
-
-The UVM environment logs detailed information for each transaction, helping identify mismatches or functional issues.
+ **Debugging**:
+- The UVM environment logs detailed information for each transaction, helping identify mismatches or functional issues.
 ______________________________________________________________________________________________________________________________________________________________
 
-**Tools & Technologies**
+**5-Tools & Technologies**
 
-**SystemVerilog:** For AES encryption and the UVM-based testbench.
-----------------------------------------------------------------
-**UVM (Universal Verification Methodology):** For building a reusable and scalable verification environment.
-----------------------------------------------------------------
-**PyCryptodome:**  For the Python-based AES reference model.
-----------------------------------------------------------------
-**QuestaSim:** For simulation and debugging.
-----------------------------------------------------------------
+**SystemVerilog**: 
+- For AES encryption and the UVM-based testbench.
+
+**UVM (Universal Verification Methodology)**:
+- For building a reusable and scalable verification environment.
+
+**PyCryptodome**:
+- For the Python-based AES reference model.
+
+**QuestaSim**: 
+- For simulation and debugging.
+
