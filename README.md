@@ -23,9 +23,11 @@ ________________________________________________________________________________
 **Components**
 
 **AES Encryption Module:** 
+-----------------
 A SystemVerilog implementation of the AES encryption algorithm.
 
 **UVM Testbench**: 
+------------------
 Includes a sequencer, driver, monitor, subscriber, and scoreboard for comprehensive coverage and correctness checks.
 
 **Python Reference Model:** 
